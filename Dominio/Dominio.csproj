@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="NewFolder\" />
+		<Folder Include="Servicos\Cliente\" />
+		<Folder Include="Servicos\Venda\" />
+		<Folder Include="Servicos\Usuario\" />
+		<Folder Include="Servicos\Produto\" />
+	</ItemGroup>
+
+</Project>
